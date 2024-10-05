@@ -43,7 +43,7 @@ btnF.addEventListener('click', function() {
 document.getElementById('GetCityForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const city = document.getElementById('CityInput').value;
-    const apiKey = 'b1193730701be0241889cb6af74d14a1';
+    const apiKey = 'ключ';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=ru`;
 
     if (!city) {
